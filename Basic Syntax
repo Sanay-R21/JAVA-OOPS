@@ -1,0 +1,16 @@
+class Pen{
+    String color;
+    String type;
+    public void write(){
+    System.out.println("write some thing");
+}
+}
+public class oop{
+    public static void main(String args[]){
+        Pen pen1 = new Pen();
+        pen1.color = "Blue";
+        pen1.type = "Dotted";
+        
+        pen1.write();
+    }
+}
