@@ -1,0 +1,26 @@
+class Student{
+    String name;
+    int Usn;
+    int age;
+    String branch;
+public void Info(){
+    System.out.println(this.name);
+    System.out.println(this.Usn);
+    System.out.println(this.age);
+    System.out.println(this.branch);
+    
+
+}
+}
+public class Oops{
+    public static void main(String args[]){
+    Student s1 = new Student();
+    s1.name = "Snaxx";
+    s1.Usn = 25111 ;
+    s1.age = 19;
+    s1.branch = "AI-ML";
+    
+
+    s1.Info();
+}
+}
