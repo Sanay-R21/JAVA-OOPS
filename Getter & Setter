@@ -1,0 +1,58 @@
+#Type 1
+class Bank {
+    
+    public String name;
+    public String holder;
+    private String password;
+    
+    public String getPassword() {
+        setPassword(password);
+        System.out.println(name);
+        System.out.println(holder);
+        return this.password;
+    }
+    
+
+    private void setPassword(String pass) {
+       this.password = "ganpati";
+    }
+}
+
+
+public class JAVA {
+    public static void main(String[] args) {
+        Bank b1 = new Bank();
+                
+
+        b1.holder = "Snaxx";
+        b1.name = "SBI";
+        System.out.println(b1.getPassword());
+        
+        
+    }
+}
+
+#Type 2 
+class Bank{
+    public String name;
+    public String Holder;
+    private String password;
+
+public String getPassword(){
+    return this.password;
+
+}
+public void setPassword(String pass){
+    this.password = pass;
+ }
+}
+public class JAV {
+
+    public static void main(String[] args){
+        Bank b1 = new Bank();
+        b1.setPassword("abcd");
+        System.out.println(b1.getPassword());
+
+    }
+}
+
