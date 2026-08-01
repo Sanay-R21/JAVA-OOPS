@@ -1,0 +1,36 @@
+
+
+class Cricket{
+    String name;
+     
+}
+
+class Staduim extends Cricket {
+    int run;
+ public void write(){
+    
+ System.out.println("Enter the name of staduim: "+name);
+}
+}
+class Cricketer extends Staduim{
+    public void display(){
+  System.out.println("Runs Scored: "+run);
+    }
+    
+}
+
+
+public class JAVA{
+    public static void main(String[] args){
+        Staduim s1 = new Staduim();
+       Cricketer s2 = new Cricketer();
+        s1.name = "Lords";
+        s2.run = 895;
+      
+
+        s1.write();
+        s2.display();
+      
+        
+    }
+}
