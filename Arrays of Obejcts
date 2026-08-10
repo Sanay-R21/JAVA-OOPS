@@ -1,0 +1,27 @@
+public class Student {
+    String name;
+    int rollno;
+// parameterized Constructor
+    Student(String n,int r){
+        rollno = r;
+        name = n;
+    }
+    void display(){
+        System.out.println(+" "+rollno);
+        System.out.println(+" "+name);
+    }
+}
+class Arrayobj{
+public static void main(String[] args){
+    Student[] s = new Student [3];
+    
+    s[0] = new Student ("Rosh", 1);
+    s[1] = new Student ("Snaxx",11);
+    s[2] = new Student ("Sanay",18);
+    System.out.println("Roll No: Name: ");
+    for(int i=0;i<s.length;i++){
+        s[i].display();
+    }
+}
+
+}
